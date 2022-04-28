@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="profile">
+            <img class="avatar" src="images/kyle-ledbetter-600.png">
+            <p class="username">Kyle Ledbetter</p>
+            <div class="email-expandable">
+                <p>kyle@kyleledbetter.com</p>
+                <span class="material-icons">expand_more</span>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <span class="material-icons">
+                        schedule
+                    </span>
+                    <p class="selected">Recent Contacts</p>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        archive
+                    </span>
+                    Archive
+                </li>
+                <li>
+                    <span class="material-icons">
+                        check
+                    </span>
+                    Replied
+                </li>
+            </ul>
+            <hr>
+            <ul>
+                <li>
+                    <span class="material-icons">
+                        send
+                    </span>
+                    Sent
+                </li>
+                <li>
+                    <span class="material-icons">
+                        delete
+                    </span>
+                    Trash
+                </li>
+                <li>
+                    <span class="material-icons">
+                        star
+                    </span>
+                    Starred
+                </li>
+                <li>
+                    <span class="material-icons">
+                        forum
+                    </span>
+                    Forums
+                </li>
+                <li>
+                    <span class="material-icons">
+                        flag
+                    </span>
+                    Updates
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div class="content">
+        <header>
+            <div class="group">
+                <span class="material-icons">
+                    menu
+                </span>
+                <p class="title">Title</p>
+            </div>
+            <div class="group">
+                <span class="material-icons">
+                    refresh
+                </span>
+                <span class="material-icons">
+                    more_vert
+                </span>
+            </div>
+        </header>
+
+        <main>
+            <div class="contacts-list card">
+                <div class="item-group">
+                    <div class="item-icon material-icons">star</div>
+                    <div class="items">
+                        <div class="contact">
+                            <img class="avatar" src="images/carolyn-campbell.png">
+                            <p>Carolyn Campbell</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/jennifer-carpenter.png">
+                            <p>Jennifer Carpenter</p>
+                        </div>
+                        <div class="contact selected">
+                            <img class="avatar" src="images/james-connors.png">
+                            <p>James Connors</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/beverly-harris.png">
+                            <p>Beverly Harris</p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item-group">
+                    <div class="item-icon">A</div>
+                    <div class="items">
+                        <div class="contact">
+                            <img class="avatar" src="images/britanny-delgado.png">
+                            <p>Britanny Delgado</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/wayne-ray.png">
+                            <p>Wayne Ray</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/rachel-ross.png">
+                            <p>Rachel Ross</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/bruce-morales.png">
+                            <p>Bruce Morales</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/evelyn-morales.png">
+                            <p>Evelyn Morales</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/marie-fuller.png">
+                            <p>Marie Fuller</p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="item-group">
+                    <div class="item-icon">B</div>
+                    <div class="items">
+                        <div class="contact">
+                            <img class="avatar" src="images/gregory-burton.png">
+                            <p>Gregory Burton</p>
+                        </div>
+                        <div class="contact">
+                            <img class="avatar" src="images/beverly-armstrong.png">
+                            <p>Beverly Armstrong</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-details card">
+                <div class="header">
+                    <div class="action-buttons">
+                        <div class="material-icons">arrow_back</div>
+                        <div class="group">
+                            <div class="material-icons">edit</div>
+                            <div class="material-icons">more_vert</div>
+                        </div>
+                    </div>
+                    <p class="name">James Connors</p>
+                </div>
+                <div class="details">
+                    <div class="item-group">
+                        <div class="item-icon material-icons">call</div>
+                        <div class="items">
+                            <div class="phone-number">
+                                <div>
+                                    <p>(650) 555-1234</p>
+                                    <p class="type">Mobile</p>
+                                </div>
+                                <img alt="Hangouts" src="images/hangouts.svg">
+                            </div>
+                            <div class="phone-number">
+                                <div>
+                                    <p>(323) 555-6789</p>
+                                    <p class="type">Work</p>
+                                </div>
+                                <img alt="Hangouts" src="images/hangouts.svg">
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="item-icon material-icons">email</div>
+                        <div class="items">
+                            <div>
+                                <p>aliconnors@example.com</p>
+                                <p class="type">Personal</p>
+                            </div>
+                            <div>
+                                <p>ali_connors@example.com</p>
+                                <p class="type">Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-group">
+                        <div class="item-icon material-icons">place</div>
+                        <div class="items">
+                            <div>
+                                <p>
+                                    2000 SW 1st Ave<br>
+                                    San Francisco, CA 94112
+                                </p>
+                                <p class="type">Home</p>
+                            </div>
+                            <div>
+                                <p>
+                                    1600 Amphitheatre Pkwy<br>
+                                    Mountain View, CA 94043
+                                </p>
+                                <p class="type">Work</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="fab material-icons">
+                edit
+            </button>
+        </main>
+    </div>
+
+</body>
+
+</html>
